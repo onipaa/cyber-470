@@ -1,0 +1,13 @@
+root@T13-SEC-LNX-U22-001:/var/lib/suricata/rules# suricata -T -c /etc/suricata/suricata.yaml -v
+Notice: suricata: This is Suricata version 7.0.6 RELEASE running in SYSTEM mode
+Info: cpu: CPUs/cores online: 4
+Info: suricata: Running suricata under test mode
+Info: suricata: Setting engine mode to IDS mode by default
+Info: exception-policy: master exception-policy set to: auto
+Info: logopenfile: fast output device (regular) initialized: fast.log
+Info: logopenfile: eve-log output device (regular) initialized: eve.json
+Info: logopenfile: stats output device (regular) initialized: stats.log
+Info: detect: 2 rule files processed. 360 rules successfully loaded, 0 rules failed, 0
+Info: threshold-config: Threshold config parsed: 0 rule(s) found
+Info: detect: 360 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 181 inspect application layer, 108 are decoder event only
+Notice: suricata: Configuration provided was successfully loaded. Exiting.
