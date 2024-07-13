@@ -19,6 +19,14 @@ sudo apt upgrade -y
     ```bash
     sudo apt update
     sudo apt install securityonion -y
+    # could not find that package
+    wget https://cdn.securityonionsolutions.com/files/securityonion.iso
+
+    sudo mkdir -p /mnt/soiso
+    sudo mount -o loop securityonion.iso /mnt/soiso
+
+    cd /mnt/soiso
+    sudo ./install.sh
     ```
 
 3. **Run the Security Onion setup:**
